@@ -6,4 +6,4 @@ use Josegonzalez\CakeQueuesadilla\Queue\Queue;
 /**
  * Load configuration
  */
-Queue::setConfig(Configure::consume('Queuesadilla'));
+Queue::setConfig(Configure::consume('Taskueue.Queuesadilla'));
